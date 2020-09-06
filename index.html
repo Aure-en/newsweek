@@ -1,23 +1,220 @@
 <!doctype html>
+
 <html lang="en">
+
   <head>
+
+    <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
     <link rel="stylesheet" href="style.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/9fbb921c08.js" crossorigin="anonymous"></script>
+    
   </head>
+
   <body>
 
-    <header></header>
+    <div class="wrapper container-fluid">
 
-    <main class="container-fluid">
+    <header>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light d-none">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_content" aria-controls="navbar_content" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar_content">
+
+          <input class="form-control" type="search" placeholder="Search">
+
+          <ul class="navbar-nav">
+
+            <li class="navbar-item">
+              <a class="nav-link py-0 my-3" href="#">U.S.</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="nav-link py-0 my-3" href="#">World</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="nav-link py-0 my-3" href="#">Business</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="nav-link py-0 my-3" href="#">Tech & Science</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="nav-link py-0 my-3" href="#">Culture</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="nav-link py-0 my-3" href="#">Newsgeek</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="nav-link py-0 my-3" href="#">Sports</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="nav-link py-0 my-3" href="#">Health</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="nav-link py-0 my-3" href="#">The Debate</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="nav-link py-0 my-3" href="#">Vantage/a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="nav-link py-0 my-3" href="#">Weather</a>
+            </li>
+
+          </ul>
+
+          <hr>
+
+          <span class="navbar-text">Trending</span>
+
+          <ul class="nav__trending list-unstyled list-inline">
+
+            <li class="navbar-item list-inline-item">
+              <a class="nav-link py-0 my-3" href="#">Donald Trump</a>
+            </li>
+
+            <li class="navbar-item list-inline-item">
+              <a class="nav-link py-0 my-3" href="#">Joe Biden</a>
+            </li>
+
+            <li class="navbar-item list-inline-item">
+              <a class="nav-link py-0 my-3" href="#">China</a>
+            </li>
+
+            <li class="navbar-item list-inline-item">
+              <a class="nav-link py-0 my-3" href="#">Coronavirus</a>
+            </li>
+
+            <li class="navbar-item list-inline-item">
+              <a class="nav-link py-0 my-3" href="#">2020 Election</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </nav>
+
+      <!-- Logo and buttons-->
+      <div class="row header__top p-3">
+
+        <div class="header__location col d-flex flex-column justify-content-around">
+          <a href="">17° Paris, FR ></a>
+          <span>Sun, Sep 06, 2020</span>
+        </div>
+
+        <div class="col-6 d-flex justify-content-center">
+          <svg class="header__logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g><path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2&#9;L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11&#9;c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7&#9;l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6&#9;H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13&#9;c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8&#9;c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2&#9;C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7&#9;h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4&#9;c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1&#9;c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6&#9;c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6&#9;C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5&#9;h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9&#9;c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2&#9;c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9&#9;C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6&#9;c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1&#9;c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6&#9;v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3&#9;c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5&#9;h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"/></g></svg>
+        </div>
+
+        <div class="col d-flex align-items-end justify-content-end">
+          <a class="mr-4 login_button" href="">LOGIN</a>
+          <button class="subscribe_button px-3" type="button">SUBSCRIBE ></button>
+        </div>
+
+
+      </div>
+
+      <!-- Nav -->
+      <nav>
+
+        <ul class="nav d-flex align-items-center">
+
+          <li class="nav-item">
+            <a class="nav-link py-0 my-3" href="#">U.S.</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link py-0 my-3" href="#">World</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link py-0 my-3" href="#">Business</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link py-0 my-3" href="#">Tech & Science</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link py-0 my-3" href="#">Culture</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link py-0 my-3" href="#">Newsgeek</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link py-0 my-3" href="#">Sports</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link py-0 my-3" href="#">Health</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link py-0 my-3" href="#">The Debate</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link py-0 my-3" href="#">Vantage</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link py-0 my-3 border-right-0" href="#">Weather</a>
+          </li>
+
+          <li class="nav-item">
+            <input class="search" type="search" placeholder="Search">
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!-- Trending -->
+
+      <div class="row py-2 px-4 mb-3 d-flex align-items-center row__trending">
+
+        <span class="trending mr-4">TRENDING</span>
+
+        <ul class="trending list-unstyled list-inline mb-0">
+          <li class="list-inline-item mr-4"><a href="#">DONALD TRUMP</a></li>
+          <li class="list-inline-item mr-4"><a href="#">JOE BIDEN</a></li>
+          <li class="list-inline-item mr-4"><a href="#">CHINA</a></li>
+          <li class="list-inline-item mr-4"><a href="#">CORONAVIRUS</a></li>
+          <li class="list-inline-item"><a href="#">2020 ELECTION</a></li>
+        </ul>
+
+      </div>
+
+
+    </header>
+
+    <main class="px-3">
 
       <!-- 1st row -->
       <div class="row">
@@ -34,10 +231,10 @@
 
               <div class="article__image">
                 <a href="#"><img class="card-img-top" src="assets/featured_stories/featured_stories1.webp" alt="Picture of Donald Trump"></a>
-                <div class="article__category">NEWS</div>
+                <div class="article__category px-3 py-1">NEWS</div>
               </div>
 
-              <div class="article__body card-body">
+              <div class="article__body card-body px-0">
                 <a class="article__title card-link" href="#"><h3>Trump Calls for Firing of Reporter Who Confirmed Atlantic Article on Veterans</h3></a>
                 <p class="article__text card-text">Fox News reporter Jennifer Griffin claimed one or two of her sources had confirmed several details noted in The Atlantic story.</p>
               </div>
@@ -47,11 +244,11 @@
             <article class="article card">
 
               <div class="article__image">
-                <a href="#"><img class="card-img-top" src="assets/featured_stories/featured_stories2.webp" alt="Picture of Black Live Matters protestors"></a>
-                <div class="article__category">U.S.</div>
+                <a href="#"><img class="card-img-top" src="assets/featured_stories/featured_stories4.webp" alt="Picture of Black Live Matters protestors"></a>
+                <div class="article__category px-3 py-1">U.S.</div>
               </div>
 
-              <div class="article__body card-body">
+              <div class="article__body card-body px-0">
                 <a class="article__title card-link" href="#"><h3>'We're Shutting the Party Down': Rochester Protesters Take Over Restaurants</h3></a>
                 <p class="article__text card-text">Video footage shows dozens of protesters, chanting "Black lives matter," climbing up the stairs of a restaurant as patrons dining outside look on.</p>
               </div>
@@ -61,11 +258,11 @@
             <article class="article card">
 
               <div class="article__image">
-                <a href="#"><img class="card-img-top" src="assets/featured_stories/featured_stories3.webp" alt="Picture of the words 'Department of Justice'"></a>
-                <div class="article__category">U.S.</div>
+                <a href="#"><img class="card-img-top" src="assets/featured_stories/featured_stories2.webp" alt="Picture of the words 'Department of Justice'"></a>
+                <div class="article__category px-3 py-1">U.S.</div>
               </div>
 
-              <div class="article__body card-body">
+              <div class="article__body card-body px-0">
                 <a class="article__title card-link" href="#"><h3>Boogaloo Suspect Arrested for Terrorist Links Had Said 'We're on Your Side'</h3></a>
                 <p class="article__text card-text">Benjamin Ryan Teeter, 22, who was charged with providing support to a foreign terrorist organization, told CNN in June: "People think I'm part of a Nazi group—I'm not."</p>
               </div>
@@ -75,11 +272,11 @@
             <article class="article card">
 
               <div class="article__image">
-                <a href="#"><img class="card-img-top" src="assets/featured_stories/featured_stories4.webp" alt="Picture of a man standing next to a grave"></a>
-                <div class="article__category">MY TURN</div>
+                <a href="#"><img class="card-img-top" src="assets/featured_stories/featured_stories3.webp" alt="Picture of a man standing next to a grave"></a>
+                <div class="article__category px-3 py-1">MY TURN</div>
               </div>
 
-              <div class="article__body card-body">
+              <div class="article__body card-body px-0">
                 <a class="article__title card-link" href="#"><h3>'I'm a Coffin Confessor. I Tell People's Secrets From Beyond the Grave'</h3></a>
                 <p class="article__text card-text">My client told me that he wanted me to crash his funeral and that he would pay me $7,300 to do exactly what he asked. I had to out the best friend for trying to sleep with the deceased's wife.</p>
               </div>
@@ -90,10 +287,10 @@
 
               <div class="article__image">
                 <a href="#"><img class="card-img-top" src="assets/featured_stories/featured_stories5.webp" alt="Picture of a man standing next to a grave"></a>
-                <div class="article__category">NEWS</div>
+                <div class="article__category px-3 py-1">NEWS</div>
               </div>
 
-              <div class="article__body card-body">
+              <div class="article__body card-body px-0">
                 <a class="article__title card-link" href="#"><h3>Antifa Member's Killing Shows America Won't Be Ruled by Mobs, Barr Says</h3></a>
                 <p class="article__text card-text">"The streets of our cities are safer with this violent agitator removed, and the actions that led to his location are an unmistakable demonstration that the United States will be governed by law, not violent mobs," Attorney General Barr said.</p>
               </div>
@@ -105,7 +302,7 @@
         </div>
 
         <!-- 2nd column: Top Story, My Turn, Culture & Travel, More Stories -->
-        <div class="col-6">
+        <div class="col-5">
 
           <!-- Top Story -->
           <section class="top_story">
@@ -116,10 +313,10 @@
 
               <div class="article__image">
                 <a href="#"><img class="card-img-top" src="assets/top_story.webp" alt="Donald Trump"></a>
-                <div class="article__category">U.S.</div>
+                <div class="article__category px-3 py-1">U.S.</div>
               </div>
 
-              <div class="article__body card-body">
+              <div class="article__body card-body px-0">
                 <a class="article__title card-link" href="#"><h3>Trump Campaign Nearly Triples Its Direct Voter Contacts Compared to 2016</h3></a>
                 <p class="article__text card-text">Donald Trump's campaign for reelection has nearly tripled the number of voters directly contacted than it did at this point four years ago.</p>
               </div>
@@ -185,10 +382,10 @@
                 <article class="article card">
                   <div class="article__image">
                     <a href="#"><img class="card-img-top" src="assets/culture_travel/culture_travel1.webp" alt="Picture of two white rhinos"></a>
-                    <div class="article__category">RHINO POACHING</div>
+                    <div class="article__category px-1">RHINO POACHING</div>
                   </div>
     
-                  <div class="article__body card-body">
+                  <div class="article__body card-body px-0">
                     <a class="article__title card-link" href="#"><h3>The Last Two Northern White Rhinos—and The Armed Guard Who Protects Them</h3></a>
                   </div>
                 </article>
@@ -200,10 +397,10 @@
                 <article class="article card">
                   <div class="article__image">
                     <a href="#"><img class="card-img-top" src="assets/culture_travel/culture_travel2.webp" alt="Picture of people visiting a museum"></a>
-                    <div class="article__category">MUSEUMS</div>
+                    <div class="article__category px-1">MUSEUMS</div>
                   </div>
     
-                  <div class="article__body card-body">
+                  <div class="article__body card-body px-0">
                     <a class="article__title card-link" href="#"><h3>Planning a Trip to One of NYC's Recently Opened Museums? What to Know</h3></a>
                   </div>
                 </article>
@@ -215,10 +412,10 @@
                 <article class="article card">
                   <div class="article__image">
                     <a href="#"><img class="card-img-top" src="assets/culture_travel/culture_travel3.webp" alt="Picture of a black woman in front of a plane"></a>
-                    <div class="article__category">TRAVEL</div>
+                    <div class="article__category px-1">TRAVEL</div>
                   </div>
     
-                  <div class="article__body card-body">
+                  <div class="article__body card-body px-0">
                     <a class="article__title card-link" href="#"><h3>First Black Woman to Host Travel TV Show Flies in the Face of Convention</h3></a>
                   </div>
                 </article>
@@ -233,9 +430,11 @@
 
           <section class="more_stories">
 
-            <article class="article media">
+            <h2>MORE STORIES</h2>
 
-              <a href="#"><img src="assets/more_stories/more_stories1.webp" alt="Donald and Melania Trump"></a>
+            <article class="article media py-3">
+
+              <a href="#"><img class="mr-3" src="assets/more_stories/more_stories1.webp" alt="Donald and Melania Trump"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Melania Trump Refutes Story About Veterans: Activism, Not Journalism</h3></a>
                 <p>The first lady said the report by Jeffrey Goldberg is simply "not true," and she went on to label the magazine article as "activism" rather than the work of a journalist.</p>
@@ -243,9 +442,9 @@
 
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/more_stories/more_stories2.webp" alt="People attending a boat parade"></a>
+              <a href="#"><img class="mr-3" src="assets/more_stories/more_stories2.webp" alt="People attending a boat parade"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Several Pro-Trump Boat Parades Planned For Labor Day Weekend Amid Pandemic</h3></a>
                 <p>Nearly 50,000 spectators are reportedly expected at a pro-Trump boat parade in San Diego Bay, among several others taking place this weekend.</p>
@@ -253,9 +452,9 @@
               
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/more_stories/more_stories3.webp" alt="Black Live Matters protestors"></a>
+              <a href="#"><img class="mr-3" src="assets/more_stories/more_stories3.webp" alt="Black Live Matters protestors"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Portland Protester Says 'I Can't Walk' as She Is Carried Away by Police</h3></a>
                 <p>Demonstrators had gathered outside the police union headquarters on the city's 100th day of protest since the shooting of George Floyd</p>
@@ -263,9 +462,9 @@
               
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/more_stories/more_stories4.webp" alt="Teacher attending a Zoom Conference on his laptop"></a>
+              <a href="#"><img class="mr-3" src="assets/more_stories/more_stories4.webp" alt="Teacher attending a Zoom Conference on his laptop"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Students 'Exposed to Porn' During Several 'Very Uncomfortable' Zoombombs</h3></a>
                 <p>Investigators were reported to have seen a rise in "Zoombombing" incidents since the spring, according to the FBI.</p>
@@ -273,9 +472,9 @@
               
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/more_stories/more_stories5.webp" alt="Veteran speaking"></a>
+              <a href="#"><img class="mr-3" src="assets/more_stories/more_stories5.webp" alt="Veteran speaking"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Veteran Who Landed Plane in Hudson River Says to Vote out Trump</h3></a>
                 <p>Chesley "Sully" Sullenberger took exception to the president's reported comments that Americans killed in WW1 were "losers."</p>
@@ -283,9 +482,9 @@
               
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/more_stories/more_stories6.webp" alt="Altar in front of a hospital"></a>
+              <a href="#"><img class="mr-3" src="assets/more_stories/more_stories6.webp" alt="Altar in front of a hospital"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Hospital That Treated Daniel Prude Says Care Was 'Compassionate'</h3></a>
                 <p>The hospital has offered to speak to Prude's family and answer any questions they might have about his treatment.</p>
@@ -293,9 +492,9 @@
               
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/more_stories/more_stories7.webp" alt="People protesting against immigrant detention camps"></a>
+              <a href="#"><img class="mr-3" src="assets/more_stories/more_stories7.webp" alt="People protesting against immigrant detention camps"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>D.C. Judge Shields Diversity Visa Winners, Otherwise Upholds Travel Ban</h3></a>
                 <p>A U.S. District Judge partially blocked Trump's travel ban by ordering the State Department to process diversity visa lottery applications before the September 30 deadline.</p>
@@ -303,9 +502,9 @@
               
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/more_stories/more_stories8.webp" alt="NYC Councilman walking in the street"></a>
+              <a href="#"><img class="mr-3" src="assets/more_stories/more_stories8.webp" alt="NYC Councilman walking in the street"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>NYC Councilman Responds to Police Union That Insulted Him</h3></a>
                 <p>Council member and congressional candidate Ritchie Torres fired back at the SBA, saying: "I'm here. I'm queer. I'm not going anywhere."</p>
@@ -313,9 +512,9 @@
               
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/more_stories/more_stories9.webp" alt="FBI Agent"></a>
+              <a href="#"><img class="mr-3" src="assets/more_stories/more_stories9.webp" alt="FBI Agent"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Ex-FBI Agent Peter Strzok Says Trump Poses 'Counterintelligence Threat'</h3></a>
                 <p>Strzok was fired from the bureau after text messages from 2016 were released that revealed anti-Trump remarks between himself and FBI lawyer Lisa Page.</p>
@@ -323,9 +522,9 @@
               
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/more_stories/more_stories10.webp" alt="Entrance of the USC University of Southern California"></a>
+              <a href="#"><img class="mr-3" src="assets/more_stories/more_stories10.webp" alt="Entrance of the USC University of Southern California"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Alum, Peers of USC Professor Question His Dismissal Over Racism Accusations</h3></a>
                 <p>A group of students identifying themselves as "Black MBA Candidates c/o 20200" wrote that the professor pronounced the word like the n-word "approximately five times," offending "all of the Black members of our Class."</p>
@@ -333,9 +532,9 @@
               
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/more_stories/more_stories11.webp" alt="Joe Biden giving a speech"></a>
+              <a href="#"><img class="mr-3" src="assets/more_stories/more_stories11.webp" alt="Joe Biden giving a speech"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Over 75 Sheriffs and Police Officers Endorse Biden, Call Trump 'Lawless'</h3></a>
                 <p>Current and former sheriffs and police officers have backed Joe Biden for president, according to a new list.</p>
@@ -343,9 +542,9 @@
               
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/more_stories/more_stories12.webp" alt="Unemployed people waiting in line outside the Kentucky Career Center"></a>
+              <a href="#"><img class="mr-3" src="assets/more_stories/more_stories12.webp" alt="Unemployed people waiting in line outside the Kentucky Career Center"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Trump Hails 'Great Jobs Numbers,' but Permanent Unemployment Is Rising</h3></a>
                 <p>A new federal jobs report found the number of permanent job losses rose by more than half a million in August.</p>
@@ -367,7 +566,7 @@
 
             <article class="article media">
 
-              <a href="#"><img src="assets/debate/debate_1.webp" alt="Gordon G. Chang"></a>
+              <a href="#"><img class="mr-3" src="assets/debate/debate_1.webp" style="max-width: 63px" alt="Gordon G. Chang"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Avoid War, Defend America, Recognize Taiwan</h3></a>
                 <span class="article__author">BY <b>GORDON G. CHANG</b></span>
@@ -375,7 +574,7 @@
 
             </article>
 
-            <span>VS</span>
+            <span class="bg-dark rounded-circle p-2">VS</span>
 
             <article class="article media">
 
@@ -383,20 +582,20 @@
                 <a class="article__title" href="#"><h3>Don't Rush to Fully Normalize Relations With Taiwan</h3></a>
                 <span class="article__author">BY <b>JEROME A. COHEN</b></span>
               </div>
-              <a href="#"><img src="assets/debate/debate_2.webp" alt="Jerome A. Cohen"></a>
+              <a href="#"><img class="ml-3" src="assets/debate/debate_2.webp" style="max-width: 63px" alt="Jerome A. Cohen"></a>
 
             </article>
 
           </section>
 
           <!-- Opinion -->
-          <section class="opinion">
+          <section class="opinion mt-5">
 
             <h2>OPINION</h2>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/opinion/opinion_1.webp" alt="Marianne Williamson"></a>
+              <a href="#"><img class="mr-3" src="assets/opinion/opinion_1.webp" alt="Marianne Williamson"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>America's Karma</h3></a>
                 <span class="article__author"><b>BY MARIANNE WILLIAMSON</b></span>
@@ -404,9 +603,9 @@
 
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/opinion/opinion_2.webp" alt="Noah Garber"></a>
+              <a href="#"><img class="mr-3" src="assets/opinion/opinion_2.webp" alt="Noah Garber"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Wanted: A Coalition to Restrain Beijing</h3></a>
                 <span class="article__author"><b>BY NOAH GARBER</b></span>
@@ -414,9 +613,9 @@
 
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/opinion/opinion_3.webp" alt="James R. Conde and T. Elliot Gaiser"></a>
+              <a href="#"><img class="mr-3" src="assets/opinion/opinion_3.webp" alt="James R. Conde and T. Elliot Gaiser"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>How Trump Could Use the Pardon Power to Provide COVID-19 Regulatory Relief</h3></a>
                 <span class="article__author"><b>BY JAMES R. CONDE AND T. ELLIOT GAISER</b></span>
@@ -424,9 +623,9 @@
 
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/opinion/opinion_4.webp" alt="Sly James and Winston Fisher"></a>
+              <a href="#"><img class="mr-3" src="assets/opinion/opinion_4.webp" alt="Sly James and Winston Fisher"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>A Warning to Our Fellow Democrats: A Campaign Focused on Trump Won't Win</h3></a>
                 <span class="article__author"><b>BY SLY JAMES AND WINSTON FISHER</b></span>
@@ -434,9 +633,9 @@
 
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/opinion/opinion_5.webp" alt="Newt Gringrich"></a>
+              <a href="#"><img class="mr-3" src="assets/opinion/opinion_5.webp" alt="Newt Gringrich"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Nancy's Blowout Could Lead to a Blowout Election</h3></a>
                 <span class="article__author"><b>BY NEWT GINGRICH</b></span>
@@ -444,9 +643,9 @@
 
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/opinion/opinion_6.webp" alt="Vikram Mansharamani"></a>
+              <a href="#"><img class="mr-3" src="assets/opinion/opinion_6.webp" alt="Vikram Mansharamani"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Tesla: The Everything Bubble Embodied</h3></a>
                 <span class="article__author"><b>BY VIKRAM MANSHARAMANI</b></span>
@@ -454,9 +653,9 @@
 
             </article>
 
-            <article class="article media">
+            <article class="article media py-3">
 
-              <a href="#"><img src="assets/opinion/opinion_7.webp" alt="Weiser and Weiss-Wolf"></a>
+              <a href="#"><img class="mr-3" src="assets/opinion/opinion_7.webp" alt="Weiser and Weiss-Wolf"></a>
               <div class="media-body">
                 <a class="article__title" href="#"><h3>Let the Private Sector Help Save the Election. We Have No Choice</h3></a>
                 <span class="article__author"><b>BY WENDY WEISER AND JENNIFER WEISS-WOLF</b></span>
@@ -477,16 +676,16 @@
       <!-- 2nd row -->
       <section class="magazine">
 
-        <h1>N IN THE MAGAZINE</h1>
+        <h2>N IN THE MAGAZINE</h2>
 
         <div class="row row-cols-4">
 
           <div class="col">
-            <div class="current_issue">
+            <div class="current_issue position-relative">
               <img src="assets/magazine/cover1.webp" alt="Piggy Bank being destroyed">
-              <div class="article__category">SEPTEMBER 18 ISSUE</div>
+              <div class="article__category px-3 py-1">SEPTEMBER 18 ISSUE</div>
             </div>
-            <a class="see_all" href="#">SEE ALL FEATURES ></a>
+            <a class="see_all d-block text-center py-1" href="#">SEE ALL FEATURES ></a>
           </div>
 
           <div class="col">
@@ -494,9 +693,9 @@
 
               <a href="#"><img class="card-img-top" src="assets/magazine/cover2.webp" alt="Piggy Bank being destroyed"></a>
 
-              <div class="article__body card-body">
-                <div class="magazine__header">
-                  <span class="magazine__type">COVER</span>
+              <div class="article__body card-body px-0">
+                <div class="magazine__header mb-2">
+                  <span class="magazine__type px-2 py-1">COVER</span>
                   <span class="magazine__category">BUSINESS</span>
                 </div>
                 <a class="article__title card-link" href="#"><h3>How the Pandemic Will Change the Way We Manage Money Forever</h3></a>
@@ -510,9 +709,9 @@
 
               <a href="#"><img class="card-img-top" src="assets/magazine/cover3.webp" alt="Dollar bill wearing a face mask"></a>
 
-              <div class="article__body card-body">
-                <div class="magazine__header">
-                  <span class="magazine__type">COVER</span>
+              <div class="article__body card-body px-0">
+                <div class="magazine__header mb-2">
+                  <span class="magazine__type px-2 py-1">COVER</span>
                   <span class="magazine__category">BUSINESS</span>
                 </div>
                 <a class="article__title card-link" href="#"><h3>Five Money Moves to Make Right Now to Overcome Your Biggest Financial Worries</h3></a>
@@ -526,9 +725,9 @@
 
               <a href="#"><img class="card-img-top" src="assets/magazine/cover4.webp" alt="Hooded hacker"></a>
 
-              <div class="article__body card-body">
-                <div class="magazine__header">
-                  <span class="magazine__type">PERISCOPE</span>
+              <div class="article__body card-body px-0">
+                <div class="magazine__header mb-2">
+                  <span class="magazine__type px-2 py-1">PERISCOPE</span>
                   <span class="magazine__category">POLITICS</span>
                 </div>
                 <a class="article__title card-link" href="#"><h3>Obama Fear of Retaliation Limited Response to Russian Meddling, Book Reveal</h3></a>
@@ -537,16 +736,708 @@
             </article>
           </div>
 
+          <div class="col">
+            <article class="article card">
+
+              <a href="#"><img class="card-img-top" src="assets/magazine/cover5.webp" alt=""></a>
+
+              <div class="article__body card-body px-0">
+                <div class="magazine__header mb-2">
+                  <span class="magazine__type px-2 py-1">PERISCOPE</span>
+                  <span class="magazine__category">CULTURE</span>
+                </div>
+                <a class="article__title card-link" href="#"><h3>CIA Directors are Not 'Yes-Men'</h3></a>
+              </div>
+
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="article card">
+
+              <a href="#"><img class="card-img-top" src="assets/magazine/cover6.webp" alt=""></a>
+
+              <div class="article__body card-body px-0">
+                <div class="magazine__header mb-2">
+                  <span class="magazine__type px-2 py-1">DOWNTIME</span>
+                  <span class="magazine__category">CULTURE</span>
+                </div>
+                <a class="article__title card-link" href="#"><h3>25 Must-Read Fall Fiction and Nonfiction Books to Escape the Chaos of 2020</h3></a>
+              </div>
+
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="article card">
+
+              <a href="#"><img class="card-img-top" src="assets/magazine/cover7.webp" alt=""></a>
+
+              <div class="article__body card-body px-0">
+                <div class="magazine__header mb-2">
+                  <span class="magazine__type px-2 py-1">DOWNTIME</span>
+                  <span class="magazine__category">CULTURE</span>
+                </div>
+                <a class="article__title card-link" href="#"><h3>Sunny Hostin Is Sharing Her View in a New Memoir 'I Am These Truths'</h3></a>
+              </div>
+
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="article card">
+
+              <a href="#"><img class="card-img-top" src="assets/magazine/cover8.webp" alt=""></a>
+
+              <div class="article__body card-body px-0">
+                <div class="magazine__header mb-2">
+                  <span class="magazine__type px-2 py-1">IN FOCUS</span>
+                </div>
+                <a class="article__title card-link" href="#"><h3>HANDS UP, DON’T SHOOT</h3></a>
+              </div>
+
+            </article>
+          </div>
 
         </div>
 
+      </section>
 
+      <!-- 3rd row -->
+      <section class="editors_pick">
+
+        <h2>Editors' Picks</h2>
+
+        <div class="row row-cols-4">
+
+        <div class="col">
+          <article class="article card">
+
+            <div class="article__image">
+              <a href="#"><img class="card-img-top" src="assets/editor_pick/editor_pick1.webp" alt=""></a>
+              <div class="article__category px-3 py-1">WORLD</div>
+            </div>
+
+            <div class="article__body card-body px-0">
+              <a class="article__title card-link" href="#"><h3>U.S. Talks See Rivals Serbia, Kosovo Build Ties with Each Other and Israel</h3></a>
+              <p class="article__text card-text">"A truly historic day, a very, very important day, especially in a beautiful part of the world" President Donald Trump announced.</p>
+            </div>
+
+          </article>
+        </div>
+
+        <div class="col">
+          <article class="article card">
+
+            <div class="article__image">
+              <a href="#"><img class="card-img-top" src="assets/editor_pick/editor_pick2.webp" alt=""></a>
+              <div class="article__category px-3 py-1">U.S.</div>
+            </div>
+
+            <div class="article__body card-body px-0">
+              <a class="article__title card-link" href="#"><h3>Texas Assistant AG Says He Was Fired Over Tweets Supporting QAnon</h3></a>
+              <p class="article__text card-text">A Media Matters report published on Thursday highlighted several controversial posts that Nick Moutos shared with his Twitter followers.</p>
+            </div>
+
+          </article>
+        </div>
+
+        <div class="col">
+          <article class="article card">
+
+            <div class="article__image">
+              <a href="#"><img class="card-img-top" src="assets/editor_pick/editor_pick3.webp" alt=""></a>
+              <div class="article__category px-3 py-1">NEWS</div>
+            </div>
+
+            <div class="article__body card-body px-0">
+              <a class="article__title card-link" href="#"><h3>In Miami, Where FL COVID Cases Are High, 20% of Diagnoses Refuse Tracing</h3></a>
+              <p class="article__text card-text">A summary of contact tracing for Miami-Dade county shows that out of the 43,202 cases assigned to the call center, 9,426 people refused an interview.</p>
+            </div>
+
+          </article>
+        </div>
+        <div class="col">
+          <article class="article card">
+
+            <div class="article__image">
+              <a href="#"><img class="card-img-top" src="assets/editor_pick/editor_pick4.webp" alt=""></a>
+              <div class="article__category px-3 py-1">NEWS</div>
+            </div>
+
+            <div class="article__body card-body px-0">
+              <a class="article__title card-link" href="#"><h3>Russia Says It Has 'Best Vaccine in the World' After Promising Study</h3></a>
+              <p class="article__text card-text">A recent peer-reviewed study shows that Russia's vaccine creates an immune response with no negative side effects.</p>
+            </div>
+
+          </article>
+        </div>
+
+        <div class="col">
+          <article class="article card">
+
+            <div class="article__image">
+              <a href="#"><img class="card-img-top" src="assets/editor_pick/editor_pick5.webp" alt=""></a>
+              <div class="article__category px-3 py-1">U.S.</div>
+            </div>
+
+            <div class="article__body card-body px-0">
+              <a class="article__title card-link" href="#"><h3>GOP Rep. Defends Kyle Rittenhouse—'He Didn't Empty a Magazine into a Crowd'</h3></a>
+              <p class="article__text card-text">In a radio interview, Rep. Thomas Massie praised Rittenhouse who has been charged with homicide during unrest in Kenosha.</p>
+            </div>
+
+          </article>
+        </div>
+
+        <div class="col">
+          <article class="article card">
+
+            <div class="article__image">
+              <a href="#"><img class="card-img-top" src="assets/editor_pick/editor_pick6.webp" alt=""></a>
+              <div class="article__category px-3 py-1">WORLD</div>
+            </div>
+
+            <div class="article__body card-body px-0">
+              <a class="article__title card-link" href="#"><h3>China Denies Meddling in 2020 Election After U.S. Intel Accuses Beijing</h3></a>
+              <p class="article__text card-text">Intelligence officials have long warned that Russia, China and Iran are all trying to meddle in American elections</p>
+            </div>
+
+          </article>
+        </div>
+
+        <div class="col">
+          <article class="article card">
+
+            <div class="article__image">
+              <a href="#"><img class="card-img-top" src="assets/editor_pick/editor_pick7.webp" alt=""></a>
+              <div class="article__category px-3 py-1">U.S.</div>
+            </div>
+
+            <div class="article__body card-body px-0">
+              <a class="article__title card-link" href="#"><h3>Date of Potential Second Stimulus Check Arrival Depends On When Bill Passes
+              </h3></a>
+              <p class="article__text card-text">Congressional lawmakers are expected to resume negotiations when they return to Capitol Hill after Labor Day.</p>
+            </div>
+
+          </article>
+        </div>
+
+        <div class="col">
+          <article class="article card">
+
+            <div class="article__image">
+              <a href="#"><img class="card-img-top" src="assets/editor_pick/editor_pick8.webp" alt=""></a>
+              <div class="article__category px-3 py-1">TECH & SCIENCE</div>
+            </div>
+
+            <div class="article__body card-body px-0">
+              <a class="article__title card-link" href="#"><h3>Hundreds of Dead Fish Discovered in Yellowstone River</h3></a>
+              <p class="article__text card-text">Montana Fish, Wildlife & Parks has launched an investigation into the deaths, believed to be caused by proliferative kidney disease.</p>
+            </div>
+
+          </article>
+        </div>
+
+      </div>
 
       </section>
 
+      <div class="categories">
+
+        <!-- 4th row -->
+        <section class="us pt-4">
+
+          <h2>U.S.</h2>
+
+          <div class="row">
+
+            <div class="col">
+              <article class="article card">
+
+                <a href="#"><img class="card-img-top" src="assets/us/us1.webp" alt=""></a>
+                <div class="article__body card-body px-0">
+                  <a class="article__title card-link"><h3>Miami Heat 'Disappointed' Over County's Rejection of Arena as Polling Site</h3></a>
+                </div>
+
+              </article>
+            </div>
+            
+            <div class="col">
+              <article class="article card">
+
+                <a href="#"><img class="card-img-top" src="assets/us/us2.webp" alt=""></a>
+                <div class="article__body card-body px-0">
+                  <a class="article__title card-link"><h3>Germany's FM Calls Trump Urging Supporters to Vote Twice 'Disturbing'</h3></a>
+                </div>
+
+              </article>
+            </div>
+
+            <div class="col list pb-5">
+
+              <ul class="list-unstyled">
+
+                <li class="media pb-2">
+                    <a href="#"><img class="mr-3" src="assets/us/us3.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>Melania Trump Refutes Story About Veterans: Activism, Not Journalism</h3></a>
+                    </div>
+                </li>
+
+                <li class="media py-2">
+                    <a href="#"><img class="mr-3" src="assets/us/us4.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>Several Pro-Trump Boat Parades Planned For Labor Day Weekend Amid Pandemic</h3></a>
+                    </div>
+                </li>
+
+                <li class="media py-2">
+                    <a href="#"><img class="mr-3" src="assets/us/us5.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>Portland Protester Says 'I Can't Walk' as She Is Carried Away by Police</h3></a>
+                    </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </section>  
+
+        <!-- 5th row -->
+        <section class="world pt-4">
+
+          <h2>World</h2>
+
+          <div class="row">
+
+            <div class="col">
+              <article class="article card">
+
+                <a href="#"><img class="card-img-top" src="assets/world/world1.webp" alt=""></a>
+                <div class="article__body card-body px-0">
+                  <a class="article__title card-link"><h3>Europe Coronavirus Cases Are Rising Fastest in These Five Countries</h3></a>
+                </div>
+
+              </article>
+            </div>
+            
+            <div class="col">
+              <article class="article card">
+
+                <a href="#"><img class="card-img-top" src="assets/world/world2.webp" alt=""></a>
+                <div class="article__body card-body px-0">
+                  <a class="article__title card-link"><h3>U.S. Says Iran Must Leave Syria, Russia Can Stay, But Allies Keep the Oil</h3></a>
+                </div>
+
+              </article>
+            </div>
+
+            <div class="col list pb-5">
+
+              <ul class="list-unstyled">
+
+                <li class="media pb-2">
+                    <a href="#"><img class="mr-3" src="assets/world/world3.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>Brown Recluse Spider Bites Sleeping Man Who Almost Loses an Arm</h3></a>
+                    </div>
+                </li>
+
+                <li class="media py-2">
+                    <a href="#"><img class="mr-3" src="assets/world/world4.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>Is It 'BAMEover' for Grouping All Ethnic Minorities Together?</h3></a>
+                    </div>
+                </li>
+
+                <li class="media py-2">
+                    <a href="#"><img class="mr-3" src="assets/world/world5.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>China May Dump U.S. Treasuries if Tensions Escalate, State Media Says</h3></a>
+                    </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </section>  
+
+        <!-- 6th row -->
+        <section class="business pt-4">
+
+          <h2>Business</h2>
+
+          <div class="row">
+
+            <div class="col">
+              <article class="article card">
+
+                <a href="#"><img class="card-img-top" src="assets/business/business1.webp" alt=""></a>
+                <div class="article__body card-body px-0">
+                  <a class="article__title card-link"><h3>Are Starbucks, Dunkin' Donuts Open on Labor Day? See Coffee Shop Hours</h3></a>
+                </div>
+
+              </article>
+            </div>
+            
+            <div class="col">
+              <article class="article card">
+
+                <a href="#"><img class="card-img-top" src="assets/business/business2.webp" alt=""></a>
+                <div class="article__body card-body px-0">
+                  <a class="article__title card-link"><h3>Officials Keep U.S.-China Trade Deal Alive Despite 'Tantrum Diplomacy'</h3></a>
+                </div>
+
+              </article>
+            </div>
+
+            <div class="col list pb-5">
+
+              <ul class="list-unstyled">
+
+                <li class="media pb-2">
+                    <a href="#"><img class="mr-3" src="assets/business/business3.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>Inflation Is Set to Rise. Here's What That Means for Your Finances</h3></a>
+                    </div>
+                </li>
+
+                <li class="media py-2">
+                    <a href="#"><img class="mr-3" src="assets/business/business4.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>Trump Touts Markets as Vote of Confidence, But They Bet He'll Lose Election</h3></a>
+                    </div>
+                </li>
+
+                <li class="media py-2">
+                    <a href="#"><img class="mr-3" src="assets/business/business5.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>Roughly 4 Million Employees to Remain Unemployed Amid Pandemic</h3></a>
+                    </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </section>  
+
+        <!-- 7th row -->
+        <section class="tech_science pt-4">
+
+          <h2>Tech & Science</h2>
+
+          <div class="row">
+
+            <div class="col">
+              <article class="article card">
+
+                <a href="#"><img class="card-img-top" src="assets/tech/tech1.webp" alt=""></a>
+                <div class="article__body card-body px-0">
+                  <a class="article__title card-link"><h3>Quakes on Notorious Segment of San Andreas Driven by Deep, Boiling Forces</h3></a>
+                </div>
+
+              </article>
+            </div>
+            
+            <div class="col">
+              <article class="article card">
+
+                <a href="#"><img class="card-img-top" src="assets/tech/tech2.webp" alt=""></a>
+                <div class="article__body card-body px-0">
+                  <a class="article__title card-link"><h3>Trump Campaign Uses Filter on Joe Biden Photo to Make Him Look Older</h3></a>
+                </div>
+
+              </article>
+            </div>
+
+            <div class="col list pb-5">
+
+              <ul class="list-unstyled">
+
+                <li class="media pb-2">
+                    <a href="#"><img class="mr-3" src="assets/tech/tech3.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>Giant Crater in Siberia May Have Exploded From Climate Change Cryovolcanism</h3></a>
+                    </div>
+                </li>
+
+                <li class="media py-2">
+                    <a href="#"><img class="mr-3" src="assets/tech/tech4.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>Facebook Apologizes after Falsely Saying It Removed Kenosha Militia Event</h3></a>
+                    </div>
+                </li>
+
+                <li class="media py-2">
+                    <a href="#"><img class="mr-3" src="assets/tech/tech5.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>TikTok Removes Videos in '365 Days' as Users Joke About Sexual Violence</h3></a>
+                    </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </section>  
+
+        <!-- 8th row -->
+        <section class="culture pt-4">
+
+          <h2>Culture</h2>
+
+          <div class="row">
+
+            <div class="col">
+              <article class="article card">
+
+                <a href="#"><img class="card-img-top" src="assets/culture/culture1.webp" alt=""></a>
+                <div class="article__body card-body px-0">
+                  <a class="article__title card-link"><h3>The Meaning of Labor Day? It's Different Than Memorial Day and Here's How</h3></a>
+                </div>
+
+              </article>
+            </div>
+            
+            <div class="col">
+              <article class="article card">
+
+                <a href="#"><img class="card-img-top" src="assets/culture/culture2.webp" alt=""></a>
+                <div class="article__body card-body px-0">
+                  <a class="article__title card-link"><h3>Is Labor Day a Federal Holiday?</h3></a>
+                </div>
+
+              </article>
+            </div>
+
+            <div class="col list pb-5">
+
+              <ul class="list-unstyled">
+
+                <li class="media pb-2">
+                    <a href="#"><img class="mr-3" src="assets/culture/culture3.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>Patty Smyth Makes a Return With Her First New Original Album in 28 Years</h3></a>
+                    </div>
+                </li>
+
+                <li class="media py-2">
+                    <a href="#"><img class="mr-3" src="assets/culture/culture4.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>Steve Irwin's Children Pay Tribute on 14th Anniversary of Father's Death</h3></a>
+                    </div>
+                </li>
+
+                <li class="media py-2">
+                    <a href="#"><img class="mr-3" src="assets/culture/culture5.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>WWE 'SmackDown' Results: Roman Reigns' Next Opponent Determined Tonight</h3></a>
+                    </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </section>  
+
+        <!-- 9th row -->
+        <section class="sports pt-4">
+
+          <h2>Sports</h2>
+
+          <div class="row">
+
+            <div class="col">
+              <article class="article card">
+
+                <a href="#"><img class="card-img-top" src="assets/sports/sports1.webp" alt=""></a>
+                <div class="article__body card-body px-0">
+                  <a class="article__title card-link"><h3>2020 Formula 1 Season: Italian GP Start Time, TV Channel, Live Stream</h3></a>
+                </div>
+
+              </article>
+            </div>
+            
+            <div class="col">
+              <article class="article card">
+
+                <a href="#"><img class="card-img-top" src="assets/sports/sports2.webp" alt=""></a>
+                <div class="article__body card-body px-0">
+                  <a class="article__title card-link"><h3>Kentucky Derby: Latest Weather Forecast, Track Conditions Update</h3></a>
+                </div>
+
+              </article>
+            </div>
+
+            <div class="col list pb-5">
+
+              <ul class="list-unstyled h-100">
+
+                <li class="media pb-2">
+                    <a href="#"><img class="mr-3" src="assets/sports/sports3.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>2020 Kentucky Derby: Post Time, TV Channel, Live Stream and Latest Odds</h3></a>
+                    </div>
+                </li>
+
+                <li class="media py-2">
+                    <a href="#"><img class="mr-3" src="assets/sports/sports4.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>2020 Kentucky Derby: Post Positions and Odds for All 18 Horses</h3></a>
+                    </div>
+                </li>
+
+                <li class="media py-2">
+                    <a href="#"><img class="mr-3" src="assets/sports/sports5.webp" alt=""></a>
+                    <div class="media-body">
+                      <a class="article__title" href="#"><h3>College Football Schedule: How to Watch Week 1 Games on TV and Online</h3></a>
+                    </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </section>  
+
+    </div>
+
+      <!-- 10th row -->
+      <div class="row">
+
+        <div class="col-8">
+
+          <section class="subscribe">
+
+            <h2>SUBSCRIBE</h2>
+
+            <div class="card">
+
+              <div class="row">
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                  <img class="img-fluid h-75" src="assets/subscribe.jpg" alt="">
+                </div>
+
+                <div class="col">
+                  <div class="card-body">
+                    <h3 class="card-title">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+                    <p class="card-text">All Access + Weekly Delivery. <br>
+                      Choose A Membership That's Perfect for You!</p>
+                    <button class="btn" type="button">SUBSCRIBE ></button>  
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        <div class="col">
+
+          <section class="newsletter">
+
+            <h2>NEWSLETTER</h2>
+
+            <div class="card">
+
+              <div class="row">
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                  <img class="img-fluid h-100" src="assets/newsletter.png" alt="">
+                </div>
+
+                <div class="col">
+                  <div class="card-body">
+                    <h3 class="card-title">The Starting 5</h3>
+                    <p class="card-text">See why nearly a quarter of a million subscribers begin their day with the Starting 5.
+                    <input type="mail" placeholder="Email address">  
+                    <button class="btn" type="button">FREE SIGN UP ></button>  
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </div>
+
     </main>
 
+    <!-- Footer -->
 
+    <footer>
+
+      <div class="footer__top d-flex">
+
+        <svg class="footer__logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g><path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2&#9;L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11&#9;c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7&#9;l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6&#9;H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13&#9;c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8&#9;c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2&#9;C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7&#9;h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4&#9;c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1&#9;c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6&#9;c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6&#9;C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5&#9;h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9&#9;c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2&#9;c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9&#9;C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6&#9;c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1&#9;c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6&#9;v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3&#9;c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5&#9;h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"/></g></svg>
+        <small class=footer__credits>© 2020 NEWSWEEK</small>
+
+        <ul class="footer__socials list-unstyled list-inline">
+          <li class="list-inline-item"><a href=""><i class="fab fa-facebook-square"></i></a></li>
+          <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href=""><i class="fab fa-tumblr"></i></a></li>
+          <li class="list-inline-item"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        
+      </div>
+
+      <div class="footer__middle d-flex">
+        <b class="mr-3">Editions:</b>
+
+        <ul class="list-unstyled list-inline">
+          <li class="list-inline-item"><a href="">U.S. Edition</a></li>
+          <li class="list-inline-item"><a href="">日本</a></li>
+          <li class="list-inline-item"><a href="">Pakistan</a></li>
+          <li class="list-inline-item"><a href="">Polska</a></li>
+          <li class="list-inline-item"><a href="">România</a></li>
+        </ul>
+
+      </div>
+
+      <div class="footer__bottom">
+        <ul class="list-unstyled list-inline">
+          <li class="list-inline-item"><a href="">About Us</a></li>
+          <li class="list-inline-item"><a href="">Corrections</a></li>
+          <li class="list-inline-item"><a href="">Contact Us</a></li>
+          <li class="list-inline-item"><a href="">Editorial Guidelines</a></li>
+          <li class="list-inline-item"><a href="">Advertise</a></li>
+          <li class="list-inline-item"><a href="">Copyright</a></li>
+          <li class="list-inline-item"><a href="">Terms & Conditions</a></li>
+          <li class="list-inline-item"><a href="">Privacy Policy</a></li>
+          <li class="list-inline-item"><a href="">Cookie Policy</a></li>
+          <li class="list-inline-item"><a href="">Terms of Sale</a></li>
+          <li class="list-inline-item"><a href="">Archive</a></li>
+          <li class="list-inline-item"><a href="">Announcements</a></li>
+          <li class="list-inline-item"><a href="">Consent preferences</a></li>
+        </ul>
+      </div>
+
+    </footer>
+
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

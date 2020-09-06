@@ -1,7 +1,5 @@
 /*Reset*/
 
-
-
 /*General*/
 
 :root {
@@ -9,8 +7,16 @@
   --grey: rgba(3,3,3,.5);
 }
 
-main {
+body {
+  width: 100vw;
+  max-width: 100%;
+  background: #f4f5f6 !important;
+}
+
+.wrapper {
   max-width: 1310px;
+  background: #fff;
+  font-size: .95rem;
 }
 
 main h2 {
@@ -20,6 +26,70 @@ main h2 {
   color: var(--grey);
 }
 
+/* Header */
+
+header {
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+header a {
+  color: #000;
+}
+
+.header__top {
+  background: var(--main);
+}
+
+.header__logo {
+  width: 400px;
+  fill: #fff;
+}
+
+.header__top,
+.header__top a {
+  color: #fff;
+}
+
+.header__top a,
+.header__top button,
+.trending {
+  font-weight: 700;
+}
+
+.login_button,
+.subscribe_button {
+  font-size: 1.2rem;
+}
+
+.subscribe_button {
+  background: #ffe400;
+  border-radius: 24px;
+  outline: none;
+  border: none;
+}
+
+header .nav-link {
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-right: 1px solid #ddd;
+}
+
+.search {
+  border: none;
+}
+
+.trending a {
+  color: #807f84;
+}
+
+.trending {
+  font-size: 1.05rem;
+}
+
+.row__trending {
+  border-top: 2px solid #f4f5f6;
+  border-bottom: 2px solid #f4f5f6;
+}
 
 /*Articles*/
 
@@ -35,7 +105,6 @@ main h2 {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: .35rem 1rem;
   background: rgba(255,255,255,.9);
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
   font-size: 1rem;
@@ -43,15 +112,42 @@ main h2 {
   color: var(--main);
 }
 
-.article__body.card-body {
-  padding: 1rem 0;
-}
-
 .article__title h3 {
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
   color: #000;
   font-size: 1.35rem;
   font-weight: 700;
+}
+
+/* More Stories */
+
+.more_stories .article__title h3 {
+  font-size: 1.065rem;
+}
+
+.more_stories article {
+  border-top: 1px solid #ddd;
+}
+
+/* The Debate & Opinion */
+
+.debate .article__title h3,
+.opinion .article__title h3 {
+  font-size: 1.05rem;
+}
+
+.debate .article__author,
+.opinion .article__author {
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-size: .9rem;
+}
+
+.opinion .article__author {
+  color: #555;
+}
+
+.opinion article {
+  border-top: 1px solid #ddd;
 }
 
 /* My Turn - Culture & Travel */
@@ -62,13 +158,77 @@ main h2 {
   color: var(--grey);
 }
 
-.my_turn .card-body,
-.culture_travel .card-body {
-  padding: 1rem 0;
-}
-
 /* Culture & Travel */
 
 .culture_travel .article__category {
-  
+  background-color: #c2d4d7;
+  font-size: .85rem;
+  color: #333;
+}
+
+/* Magazine */
+
+.magazine__type,
+.magazine__category,
+.see_all {
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.magazine__type {
+  color: #fff;
+  background: var(--main);
+}
+
+.magazine__category {
+  color: var(--main);
+}
+
+.magazine .card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.magazine .article__title h3 {
+  font-size: 1.15rem;
+}
+
+.see_all {
+  background-color: #f4f5f6;
+  color: #000;
+  font-size: 1.1rem;
+}
+
+/* Other Categories */
+
+.categories h2 {
+  font-size: 1.4rem;
+  color: var(--main);
+}
+
+.categories section {
+  border-top: 1px solid #ddd;
+}
+
+.categories .media {
+  border-top: 1px solid #ddd;
+}
+
+.categories .media:first-child {
+  border-top: none;
+}
+
+.list .media img {
+  max-width: 95px;
+}
+
+.list .article__title h3 {
+  font-size: 1.05rem;
+}
+
+/*Footer*/
+
+.footer__logo {
+  width: 200px;
 }
