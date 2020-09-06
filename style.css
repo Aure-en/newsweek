@@ -36,6 +36,10 @@ header a {
   color: #000;
 }
 
+header a:hover {
+  color: var(--main);
+}
+
 .header__top {
   background: var(--main);
 }
@@ -82,6 +86,10 @@ header .nav-link {
   color: #807f84;
 }
 
+.trending a:hover {
+  text-decoration: none;
+}
+
 .trending {
   font-size: 1.05rem;
 }
@@ -112,11 +120,17 @@ header .nav-link {
   color: var(--main);
 }
 
-.article__title h3 {
+.article__title h3,
+.subscribe .card-body h3,
+.newsletter .card-body h3 {
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
   color: #000;
   font-size: 1.35rem;
   font-weight: 700;
+}
+
+.article__title h3:hover {
+  text-decoration: underline var(--main);
 }
 
 /* More Stories */
@@ -156,6 +170,11 @@ header .nav-link {
 .culture_travel .article__title h3 {
   font-size: 1rem;
   color: var(--grey);
+}
+
+.my_turn .article__title h3:hover,
+.culture_travel .article__title h3:hover {
+  text-decoration: none;
 }
 
 /* Culture & Travel */
@@ -227,8 +246,65 @@ header .nav-link {
   font-size: 1.05rem;
 }
 
+/* Subscribe & Newsletter */
+
+.subscribe h2,
+.newsletter h2 {
+  color: var(--main);
+}
+
+.subscribe button,
+.newsletter button {
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  background: var(--main);
+  color: #fff;
+  font-weight: 700;
+}
+
+.subscribe button:hover,
+.newsletter button:hover {
+  color: #fff;
+}
+
+.newsletter img {
+  object-fit: cover;
+}
+
+.subscribe .card {
+  background: #f4f5f6;
+  border-color: #f4f5f6;
+}
+
 /*Footer*/
 
+footer {
+  border-top: 2px solid #f4f5f6;
+}
+
+footer,
+footer a {
+  color: #666;
+}
+
+footer a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
 .footer__logo {
-  width: 200px;
+  width: 250px;
+  fill: var(--main);
+}
+
+.footer__socials {
+  font-size: 1.5rem;
+}
+
+.footer__top {
+  border-bottom: 1px solid #ddd;
+}
+
+.languages .list-inline-item,
+.terms .list-inline-item {
+  border-left: 1px solid #ddd;
 }
