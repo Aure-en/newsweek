@@ -301,6 +301,7 @@ header .navbar {
 .newsletter__subscribe {
   background: #f4f5f6;
   border: 1px solid #e5e5e5;
+  max-width: 300px;
 }
 
 .form__title h3 {
